@@ -1,12 +1,12 @@
 //Queue implementation using array
 
 public class QARR {
-    static class Queue {
+    static class Queuee {
         static int arr[];
         static int size;
         static int rear = -1;
 
-        Queue(int n) {
+        Queuee(int n) {
             arr = new int[n];
             this.size = n;
         }
@@ -55,7 +55,7 @@ public class QARR {
     }
 
     public static void main(String[] args) {
-         Queue q=new Queue(5);
+         Queuee q=new Queuee(5);
          q.add(3);
          q.add(6);
 
