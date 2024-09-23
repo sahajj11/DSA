@@ -1,3 +1,5 @@
+//Queue implementation using CollectionFramewoks
+
 import java.util.*;
 
 public class QCF {

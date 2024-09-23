@@ -1,3 +1,5 @@
+//Queue implementation using LinkedList
+
 public class QLL {
 
     static class Node {
