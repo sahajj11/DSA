@@ -60,6 +60,7 @@ public class BinaryTreess {
         postOrder(root.right);
         System.out.print(root.data + " ");
     }
+    
     public static void levelOrder(Node root){
         if(root==null){
             return;
@@ -100,6 +101,7 @@ public class BinaryTreess {
               
         int leftNodes=countOfNodes(root.left);
         int rightNodes=countOfNodes(root.right);
+        
 
         return leftNodes+rightNodes+1;
     }
